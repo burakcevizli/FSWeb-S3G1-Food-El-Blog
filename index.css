@@ -1,7 +1,5 @@
 body {
   color: #3c373b;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
 }
 
 h1 {
@@ -50,6 +48,7 @@ img{
 .container {
   /*======= width property yaratın. Değerini 750px olarak atayın */
   margin: 0 auto;
+  width: 750px;
 }
 .Navigasyon{
   margin-top: 50px;
@@ -57,21 +56,24 @@ img{
   justify-content: space-between;
 }
 .container header nav a {
-  font-size: 30px;
-  margin: 0 10px;
+  
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 20px;
   border: 1px solid lightgray;
-  padding: 20px;
+  padding: 0 20px;
   display: inline-block;
   border-radius: 20px;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-  
   background-color: #E79947;
 }
 
 .container header nav a:hover {
-  /*======= background property yaratın ve değeri white olsun.  Sonra, color property yaratın ve değerini yapın. */
+  background-color: white;
+  color:#E79947
 }
 
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
@@ -96,7 +98,9 @@ footer {
   width: 100%;
   background: #e79947;
   border-top: 1px dashed white;
+  padding: 0px;
 }
+
 
 footer .footer-content {
   margin: 0 auto;
@@ -124,11 +128,10 @@ footer nav a:first-child {
   margin-left: 0;
 }
 
-/*======= Footer nav'daki anchor tag için aşağıdaki stilleri içeren bir hover state yaratın:
+footer nav a:hover{
   color: white;
-*/
-
+}
 footer .footer-content .copyright {
   padding: 20px 0;
-  /*======= metni ortalayacak kodu yazın */
+  text-align: center;
 }
